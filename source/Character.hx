@@ -139,21 +139,21 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 0, -30);
 
 				playAnim('idle');
-			case 'zardy':
+			case 'glitch':
 				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('Zardy','ChallengeWeek');
+				tex = Paths.getSparrowAtlas('Glitch','Weeksus');
 				frames = tex;
 				animation.addByPrefix('idle', 'Idle', 14);
-				animation.addByPrefix('singUP', 'Sing Up', 24);
-				animation.addByPrefix('singRIGHT', 'Sing Right', 24);
-				animation.addByPrefix('singDOWN', 'Sing Down', 24);
-				animation.addByPrefix('singLEFT', 'Sing Left', 24);
+				animation.addByPrefix('singUP', 'up', 24);
+				animation.addByPrefix('singRIGHT', 'right', 24);
+				animation.addByPrefix('singDOWN', 'down', 24);
+				animation.addByPrefix('singLEFT', 'left', 24);
 
 				addOffset('idle');
-				addOffset("singUP", 20, -10);
-				addOffset("singRIGHT", 5, 5);
-				addOffset("singLEFT", 210, 25);
-				addOffset("singDOWN", 8, -45);
+				addOffset("singUP", -29, 27);
+				addOffset("singRIGHT", -68, -7);
+				addOffset("singLEFT", 65, 9);
+				addOffset("singDOWN", 200, -70);
 
 				playAnim('idle');
 			case 'spooky':
