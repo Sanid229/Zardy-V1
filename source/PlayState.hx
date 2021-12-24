@@ -206,8 +206,8 @@ class PlayState extends MusicBeatState
 					"If you can beat me here...",
 					"Only then I will even CONSIDER letting you\ndate my daughter!"
 				];
-			case 'foolhardy':
-				dialogue = CoolUtil.coolTextFile(Paths.txt('foolhardy/poggin'));
+			case 'glitch':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('glitch/pog'));
 		}
 
 		if (SONG.song.toLowerCase() == 'spookeez' || SONG.song.toLowerCase() == 'monster' || SONG.song.toLowerCase() == 'south')
