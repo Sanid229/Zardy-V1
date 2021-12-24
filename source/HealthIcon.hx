@@ -26,7 +26,7 @@ class HealthIcon extends FlxSprite
 		animation.add('tankman', [8, 9], 0, false, isPlayer);
 		animation.add('face', [10, 11], 0, false, isPlayer);
 		animation.add('dad', [12, 13], 0, false, isPlayer);
-		animation.add('zardy', [24, 25], 0, false, isPlayer);
+		animation.add('glitch', [24, 25], 0, false, isPlayer);
 		animation.add('senpai', [22, 22], 0, false, isPlayer);
 		animation.add('senpai-angry', [22, 22], 0, false, isPlayer);
 		animation.add('spirit', [23, 23], 0, false, isPlayer);
